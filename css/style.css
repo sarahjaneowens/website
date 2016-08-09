@@ -145,11 +145,15 @@ img.avatar {
  margin-bottom: 0.5em;
 }
 
+.icons { width: 400px;
+        padding: 1em;
+}
+
 /* --------------- ABOUT ---------------- */
 
 
 .about {
-    margin-top: -35em;
+    margin-top: -47em;
     margin-bottom: 12em;
 }
 
@@ -169,9 +173,9 @@ img.avatar {
     position: static;
   background-size: cover;
   width: 100%;
-  padding-top:700px;
+  padding-top:950px;
   margin: 0 auto;
-    margin-top: 3em;
+    
 } 
 
 .interaction { color: #515050;
