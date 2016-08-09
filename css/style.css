@@ -1,0 +1,277 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+p, h1, h2, h3, h4, li
+{
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin: auto;   
+        color: #333;
+        line-height: 1.5em;
+    }
+
+
+/* --------------- HEADER ---------------- */ 
+
+nav { padding: 0em 0;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        background: rgba(243, 112, 94, 1);
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 1.1em;
+        width: 100%;
+        }
+       
+    nav ul {
+        float: right;
+        margin-right: 1em;
+        letter-spacing: 1px;}
+    
+    nav li {
+        display: inline;
+        }
+
+    nav a {
+        color: #ffffff;
+        text-decoration: none;
+        padding: 16px;
+        font-size: 0.9em;
+}
+
+    nav li a:hover {
+    color: #6b6b6b;
+    transition: all 0.2s ease-in-out; 
+    }
+
+
+header {
+    padding: 2em;
+    background-color:#5e5e5e;
+    
+}
+
+h1 { color:#fff;
+    margin-top: 3em;
+    text-align: center;
+     font-size: 3em;
+font-weight: bold;}
+
+h2 {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    color:#515050;
+}
+    
+h3 { color:#515050;
+    letter-spacing: 2px;
+    }
+
+h4 { color: #fff;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-size: 0.7em;
+    font-weight: 200;
+    letter-spacing: 5px;}
+
+p { font-size: 1.3em;}
+
+.title {color:#fff;
+        text-align: center;
+        font-size: 2.3em; }
+
+.headerfont {
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-left: 4px;}
+    
+ 
+div
+{
+    width: 680px;
+    text-align: center;
+    margin: auto;
+}
+
+#test {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+/* --------------- IMAGES ---------------- */
+
+.img-header { margin-top: 2em;
+            margin-bottom: 1em;
+}
+
+img.avatar {    
+  width: 150px;
+ margin-bottom: 0.5em;
+}
+
+/* --------------- ABOUT ---------------- */
+
+
+.about {
+    margin-top: -35em;
+    margin-bottom: 12em;
+}
+
+#about h2 {
+    color: #fff;
+}
+
+#about p {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+
+
+#background {
+  background: url(../images/finalbg2.svg) no-repeat center;
+    position: static;
+  background-size: cover;
+  width: 100%;
+  padding-top:700px;
+  margin: 0 auto;
+    margin-top: 3em;
+} 
+
+.interaction { color: #515050;
+        text-decoration: none;}
+
+
+a:hover {
+    color: #c1bfbf;}
+
+/* --------------- PORTFOLIO ---------------- */
+
+.img-list {
+    text-align: center;
+    margin: auto 0;
+    margin-top: 2em;
+    max-width: 100%;
+    }
+
+.img-list ul {
+    display: block;
+    list-style: none;
+    }
+
+.img-list  li {
+    margin: 0 3px;
+    margin-bottom: 0 3px;
+    display: inline;
+    }
+
+.img-list img {
+    width: 300px;
+    border: none;
+    }
+
+.img-list img:hover{opacity: 0.6;}
+
+
+/*--------------------CONTACT---------------------*/
+
+
+#contact {
+    margin-top: -0.55em;
+    background: #515050;
+    text-align: center;
+}
+
+#contact p {margin-top: -5em;} 
+
+.touch {
+    color: #fff;
+}
+
+.social  {
+    position: relative;
+    margin: auto 0;
+    }
+
+.social ul {
+    margin: 0;
+    padding: 0
+    }
+
+.social li {
+    margin: 0 7px;
+    padding: 0;
+    list-style: none;
+    display: inline;
+    }
+
+
+.social img {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 50px;
+    text-align: center;
+    border: none;
+    }
+
+.social a:hover img {
+    transition: all 0.3s ease-in-out;
+    transform:scale(1.10);
+    opacity: 0.7;
+    }
+
+
+/*--------------------FOOTER---------------------*/
+
+
+footer { 
+    background: rgba(104, 104, 104, 0.8);
+    padding: 1em;}
+
+footer p {
+        font-size: 0.8em;
+        color: #fff;
+        text-align: center;}
